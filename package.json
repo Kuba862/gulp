@@ -1,0 +1,30 @@
+{
+  "name": "gulp_config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuba862/gulp.git"
+  },
+  "author": "Jakub Rejch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuba862/gulp/issues"
+  },
+  "homepage": "https://github.com/Kuba862/gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.11"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.9",
+    "cssnano": "^5.1.7",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0"
+  }
+}

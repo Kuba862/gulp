@@ -1,0 +1,2 @@
+const name=document.querySelector("input[name=name]"),lastName=document.querySelector("input[name=last_name]"),email=document.querySelector("input[name=email]"),action=document.querySelector(".action"),data=[],onClickBtn=e=>{e.preventDefault(),data.push(name.value,lastName.value,email.value),console.log(data)};action.addEventListener("click",onClickBtn);
+//# sourceMappingURL=script.js.map
