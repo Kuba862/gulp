@@ -50,7 +50,3 @@ action.addEventListener('click', (e) => {
     e.preventDefault();
     (person.name !== '' && person.lastName !== '' && person.email !== '') ? showDetails() : hideDetails();
 });
-
-
-
-// action.addEventListener('click', onClickBtn);
