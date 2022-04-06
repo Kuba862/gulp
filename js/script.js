@@ -18,19 +18,21 @@ showDetails = () => {
     }
 }
 
+class Text {
+    constructor() {
+        this.name = name;
+        console.log(this.name.value);
+    }
+}
+const user = new Text(name);
+
 const person = {
     name: name.value,
     lastName: lastName.value,
     email: email.value,
-    show() {
-        console.log(`I'm ${this.name} ${this.lastName} with email: ${this.email}`);
-    },
     details: {
         age: this.age,
         proffession: this.proffession, 
-        showDetails() {
-            console.log(`I'm ${this.age} years old and work as ${this.proffession}`);
-        }
     }
 }
 
